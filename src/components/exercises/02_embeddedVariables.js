@@ -3,6 +3,7 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
 
 
 const Demo = () => {
+  const header = "BSc Honours in Applied Computing Cloud and Networks";
   const modules = [
     {name: "Dev Ops",
      noLectures: 1,
@@ -29,10 +30,9 @@ const Demo = () => {
     noPracticals: 2
     }
   ];
-  const header = "BSc Honours in Applied Computing Cloud and Networks";
   return (
     <div>
-      <h1>$header</h1>
+      <h1>{header}</h1>
       <table className="table table-bordered">
         <thead>
           <tr>
